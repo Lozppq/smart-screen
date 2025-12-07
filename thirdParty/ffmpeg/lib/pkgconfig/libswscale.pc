@@ -1,0 +1,14 @@
+prefix=/home/lzq/lzq/ffmpeg/output
+exec_prefix=${prefix}
+libdir=/home/lzq/lzq/ffmpeg/output/lib
+includedir=/home/lzq/lzq/ffmpeg/output/include
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 9.1.100
+Requires: 
+Requires.private: libavutil >= 60.8.100
+Conflicts:
+Libs: -L${libdir}  -lswscale 
+Libs.private: -lm -latomic
+Cflags: -I${includedir}

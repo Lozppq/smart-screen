@@ -1,0 +1,6 @@
+module Component
+
+singleton PageManager 1.0 PageManager.qml
+FunctionModel 1.0 FunctionModel.qml
+ReturnArea 1.0 ReturnArea.qml
+TitleBar 1.0 TitleBar.qml

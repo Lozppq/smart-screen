@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/UI">
+        <file>MainWindow/MainWindow.qml</file>
+        <file>Component/PageManager.qml</file>
+        <file>MainWindow/FunctionArea.qml</file>
+        <file>MainWindow/TopArea.qml</file>
+        <file>Component/ReturnArea.qml</file>
+        <file>MainWindow/Icons/main_bg.jpg</file>
+        <file>Component/Icons/main_return.jpg</file>
+        <file>Component/FunctionModel.qml</file>
+        <file>Component/TitleBar.qml</file>
+        <file>Component/qmldir</file>
+        <file>Component/Icons/VideoFunction.jpg</file>
+        <file>Component/Icons/MusicFunction.jpg</file>
+        <file>Component/Icons/MicrophoneFunction.jpg</file>
+        <file>Component/Icons/SettingFunction.jpg</file>
+        <file>Component/Icons/ClockFunction.jpg</file>
+        <file>Component/Icons/WeatherFunction.jpg</file>
+        <file>Component/Icons/default.jpg</file>
+        <file>VideoFunction/MainVideo.qml</file>
+        <file>VideoFunction/VideoPlayer.qml</file>
+        <file>VideoFunction/VideoListPage.qml</file>
+        <file>VideoFunction/Icons/video.jpg</file>
+        <file>VideoFunction/Icons/folder.jpg</file>
+        <file>MusicFunction/MainMusic.qml</file>
+    </qresource>
+</RCC>

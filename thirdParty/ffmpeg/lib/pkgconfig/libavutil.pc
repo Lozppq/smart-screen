@@ -1,0 +1,14 @@
+prefix=/home/lzq/lzq/ffmpeg/output
+exec_prefix=${prefix}
+libdir=/home/lzq/lzq/ffmpeg/output/lib
+includedir=/home/lzq/lzq/ffmpeg/output/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 60.8.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -lm -latomic -pthread -lX11
+Cflags: -I${includedir}
